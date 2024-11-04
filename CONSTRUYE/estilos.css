@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?famuly=Popins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+
+}
+
+body{
+    font-family:´poppins sans-serif´;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)),
+        url(imagenes/FONDO.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fffafa;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 800;
+}
+
+.menu .navbar ul li a:hover {
+    color: #CE967B;
+}
+
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 43px;
+    line-height: 60px;
+    color: #919191;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.header-content p {
+    font-size: 20px;
+    color: #302e2e;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #EBAD8D;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 50px 150px 100px 100px;
+    background-color: #ffffff;
+}
+
+.general-2 {
+    background-image: url(imagenes/CEMENTO.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(imagenes/CAL.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 50px 150px 100px 100px;
+    background-color: #e4e0e0;
+}
+
+.general-4 {
+    background-image: url(imagenes/ARENA.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-5 {
+    background-image: url(imagenes/GRAVA.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 50px 150px 100px 100px;
+    background-color: #ffffff;
+}
+
+.general-6 {
+    background-image: url(imagenes/BLOQUES\ CONCRETO.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-7 {
+    background-image: url(imagenes/LADRILLOS.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 50px 150px 100px 100px;
+    background-color: #e2dddd;
+}
+
+.general-8 {
+    background-image: url(imagenes/PLACAS\ DE\ YESO.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-9 {
+    background-image: url(imagenes/VARILLAS\ ACERO.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 70px;
+    line-height: 60px;
+    color: #645e5e;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.header-content h3 {
+    font-size: 2px;
+    color: #8d8b8b;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 50px 150px 100px 100px;
+    background-color: #ffffff;
+}
+
+.general-10 {
+    background-image: url(imagenes/MARTILLO.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-11 {
+    background-image: url(imagenes/TALADROOOO.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 50px 150px 100px 100px;
+    background-color: #e4e0e0;
+}
+
+.general-12 {
+    background-image: url(imagenes/DESTORNILLADORRRRRR.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-13 {
+    background-image: url(imagenes/ESMERILES.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 50px 150px 100px 100px;
+    background-color: #ffffff;
+}
+
+.general-14 {
+    background-image: url(imagenes/CORTADORA.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-15 {
+    background-image: url(imagenes/CINCELES.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 50px 150px 100px 100px;
+    background-color: #e2dddd;
+}
+
+.general-16 {
+    background-image: url(imagenes/ESCALERAS.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-17 {
+    background-image: url(imagenes/CARRETILLA.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.header-content {
+    text-align: center;
+}
+
+
+.footer {
+    padding: 30px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 15PX;
+}
+
+.link a {
+    font-size: 16px;
+    color: #E1E2E6;
+    display: block;
+    margin-bottom: 15px;
+}

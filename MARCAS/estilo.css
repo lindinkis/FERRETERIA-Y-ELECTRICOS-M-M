@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?famuly=Popins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+
+}
+
+body{
+    font-family:´poppins sans-serif´;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)),
+        url(imagenes/FONDO.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fffafa;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 800;
+}
+
+.menu .navbar ul li a:hover {
+    color: #CE967B;
+}
+
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 32px;
+    line-height: 60px;
+    color: #919191;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.header-content h2 {
+    font-size: 32px;
+    line-height: 60px;
+    color: #919191;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.header-content h3 {
+    font-size: 2px;
+    line-height: 60px;
+    color: #919191;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.MARCAS-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MARCAS-1 {
+    padding: 15px 55px;
+}
+
+.MARCAS-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.MARCAS-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h5 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 15PX;
+}
+
+.link a {
+    font-size: 16px;
+    color: #E1E2E6;
+    display: block;
+    margin-bottom: 15px;
+}
